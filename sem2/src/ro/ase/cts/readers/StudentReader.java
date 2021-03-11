@@ -10,8 +10,13 @@ import ro.ase.cts.clase.Aplicant;
 import ro.ase.cts.clase.Student;
 
 public class StudentReader extends AplicantReader{
-	public List<Aplicant> readAplicants(String file) throws FileNotFoundException, NumberFormatException {
-		Scanner input = new Scanner(new File(file));
+	
+	public StudentReader(String numeFisier) {
+		super(numeFisier);
+	}
+	
+	public List<Aplicant> readAplicants() throws FileNotFoundException, NumberFormatException {
+		Scanner input = new Scanner(new File(super.numeFisier));
 		input.useDelimiter(",|\n");
 		List<Aplicant> studenti = new ArrayList<Aplicant>();
 
