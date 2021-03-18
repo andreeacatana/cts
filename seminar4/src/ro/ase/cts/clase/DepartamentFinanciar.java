@@ -13,7 +13,7 @@ public class DepartamentFinanciar {
 		this.salariulDeBaza=salariulDeBaza;
 	}
 	
-	public static DepartamentFinanciar getInstance(int nrAngajati, String director, double salariulDeBaza) {
+	public static synchronized DepartamentFinanciar getInstance(int nrAngajati, String director, double salariulDeBaza) {
 		if(departamentFinanciar == null) {
 			departamentFinanciar = new DepartamentFinanciar(nrAngajati, director, salariulDeBaza);
 		}
