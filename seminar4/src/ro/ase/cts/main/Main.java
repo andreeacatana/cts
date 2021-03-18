@@ -1,5 +1,6 @@
 package ro.ase.cts.main;
 
+import ro.ase.cts.clase.Camera;
 import ro.ase.cts.clase.DepartamentFinanciar;
 import ro.ase.cts.clase.DepartamentFinanciarEager;
 
@@ -25,6 +26,11 @@ public class Main {
 		System.out.println(primulDepartamentFinanciar.toString());
 		System.out.println(alDoileaDepartamentFinanciar.toString());
 	
+		
+		Camera primaCamera = Camera.getInstance(1, 20, "bej");
+		Camera aDouaCamera = Camera.getInstance(3, 30, "crem");
+		
+		System.out.println(primaCamera.toString());
+		System.out.println(aDouaCamera.toString());
 	}
-
 }
