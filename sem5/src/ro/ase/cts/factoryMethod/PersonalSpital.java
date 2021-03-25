@@ -1,6 +1,6 @@
 package ro.ase.cts.factoryMethod;
 
-public class PersonalSpital {
+public abstract class PersonalSpital {
 	private String nume;
 	private int salariu;
 	
