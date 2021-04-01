@@ -10,7 +10,14 @@ public class Program {
 		
 		System.out.println(rezervare1.toString());
 		System.out.println(rezervare2.toString());
-
+		
+		//dezavantaj, face shallow copy in acest fel
+		/*RezervareBuilder builder = new RezervareBuilder().setAreBauturaRacoritoare(true);
+		Rezervare rezervare3 = builder.build();
+		Rezervare rezervare4 = builder.setCodRezervare(100).build();
+		rezervare3.setCodRezervare(200);
+		System.out.println(rezervare3.toString());
+		System.out.println(rezervare4.toString());*/
 	}
 
 }
