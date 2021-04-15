@@ -19,6 +19,12 @@ public class Program {
 		meniu.addComponenta(sectiuneDesert);
 		
 		meniu.afiseazaDescrierea();
+		
+		sectiuneBauturi.stergeComponenta(itemFrappe);
+		sectiuneDesert.addComponenta(itemFrappe);
+		
+		meniu.afiseazaDescrierea();
+		
 
 	}
 }
