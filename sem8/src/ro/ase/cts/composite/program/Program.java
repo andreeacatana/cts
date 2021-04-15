@@ -1,4 +1,7 @@
-package ro.ase.cts.composite;
+package ro.ase.cts.composite.program;
+
+import ro.ase.cts.composite.clase.Item;
+import ro.ase.cts.composite.clase.Sectiune;
 
 public class Program {
 

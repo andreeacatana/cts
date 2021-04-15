@@ -1,4 +1,4 @@
-package ro.ase.cts.composite;
+package ro.ase.cts.composite.clase;
 
 public interface ComponentaAbstracta {
 	
