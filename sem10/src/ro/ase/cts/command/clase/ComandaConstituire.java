@@ -4,7 +4,7 @@ public class ComandaConstituire extends Comanda{
 	
 	@Override
 	public void executa() {
-		// TODO Auto-generated method stub
+		super.contBancar.constituire(super.suma);
 		
 	}
 	

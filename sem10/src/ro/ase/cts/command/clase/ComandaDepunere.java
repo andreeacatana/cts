@@ -3,7 +3,7 @@ package ro.ase.cts.command.clase;
 public class ComandaDepunere extends Comanda{
 	@Override
 	public void executa() {
-		// TODO Auto-generated method stub
+		super.contBancar.depunere(super.suma);
 		
 	}
 	

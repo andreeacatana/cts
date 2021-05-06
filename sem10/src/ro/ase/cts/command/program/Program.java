@@ -18,7 +18,6 @@ public class Program {
 		managerComenzi.invoca(new ComandaRetragere(contBancar, 500));
 		managerComenzi.executaComanda();
 		managerComenzi.executaComanda();
-
 	}
 
 }

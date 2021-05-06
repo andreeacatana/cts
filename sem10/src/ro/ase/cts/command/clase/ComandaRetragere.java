@@ -4,7 +4,7 @@ public class ComandaRetragere extends Comanda{
 
 	@Override
 	public void executa() {
-		// TODO Auto-generated method stub
+		super.contBancar.retragere(super.suma);
 		
 	}
 	
